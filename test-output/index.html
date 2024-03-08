@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Capstone_Project" class="navigator-link">
+              <span class="suite-name border-failed">Capstone Project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Capstone_Project" class="navigator-link ">
+                    <span>C:\Users\hp\eclipse-workspace\XYZBank\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Capstone_Project" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Capstone_Project" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Capstone_Project" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Capstone_Project" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Capstone_Project" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Capstone_Project" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 4 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Capstone_Project" class="hide-methods failed suite-Capstone_Project"> (hide)</a> <!-- hide-methods failed suite-Capstone_Project -->
+                      <a href="#" panel-name="suite-Capstone_Project" class="show-methods failed suite-Capstone_Project"> (show)</a> <!-- show-methods failed suite-Capstone_Project -->
+                    </span>
+                    <div class="method-list-content failed suite-Capstone_Project">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.AddCustomerInvalidTest" class="method navigator-link" hash-for-method="addCustNumbersTest">addCustNumbersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.AddCustomerInvalidTest" class="method navigator-link" hash-for-method="addCustValidationTest">addCustValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DepositInvalidTest" class="method navigator-link" hash-for-method="depositNegativeTest">depositNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.WithdrawlInvalidTest" class="method navigator-link" hash-for-method="withdrawNegativeTest">withdrawNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Capstone_Project -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Capstone_Project" class="hide-methods passed suite-Capstone_Project"> (hide)</a> <!-- hide-methods passed suite-Capstone_Project -->
+                      <a href="#" panel-name="suite-Capstone_Project" class="show-methods passed suite-Capstone_Project"> (show)</a> <!-- show-methods passed suite-Capstone_Project -->
+                    </span>
+                    <div class="method-list-content passed suite-Capstone_Project">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.AddCustomerInvalidTest" class="method navigator-link" hash-for-method="addCustDuplicateTest">addCustDuplicateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.AddCustomerValidTest" class="method navigator-link" hash-for-method="addCustTest">addCustTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DeleteCustomersTest" class="method navigator-link" hash-for-method="deleteByFnameTest">deleteByFnameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DeleteCustomersTest" class="method navigator-link" hash-for-method="deleteByLnameTest">deleteByLnameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DepositInvalidTest" class="method navigator-link" hash-for-method="depositCharTest">depositCharTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DepositValidTest" class="method navigator-link" hash-for-method="depositamountTest">depositamountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.LoginCLTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.OpenAccountInvalidTest" class="method navigator-link" hash-for-method="openAccountBlankTest">openAccountBlankTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.OpenAccountInvalidTest" class="method navigator-link" hash-for-method="openAccountSingleBlankTest1">openAccountSingleBlankTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.OpenAccountInvalidTest" class="method navigator-link" hash-for-method="openAccountSingleBlankTest2">openAccountSingleBlankTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.OpenAccountValidTest" class="method navigator-link" hash-for-method="openAccountValidTest">openAccountValidTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.OpenAccountValidTest" class="method navigator-link" hash-for-method="openAccountVerifyTest">openAccountVerifyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.SearchCustomersTest" class="method navigator-link" hash-for-method="searchByFnameTest">searchByFnameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.SearchCustomersTest" class="method navigator-link" hash-for-method="searchByLnameTest">searchByLnameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.SearchCustomersTest" class="method navigator-link" hash-for-method="searchByPostTest">searchByPostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.SearchCustomersTest" class="method navigator-link" hash-for-method="searchByaccNumTest">searchByaccNumTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.LoginCLTest" class="method navigator-link" hash-for-method="verifyAccountNumberTest">verifyAccountNumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.AddCustomerValidTest" class="method navigator-link" hash-for-method="verifyAddedCustTest">verifyAddedCustTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.LoginCLTest" class="method navigator-link" hash-for-method="verifyCustomerNameTest">verifyCustomerNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.LoginCLTest" class="method navigator-link" hash-for-method="verifyHeaderTest">verifyHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.DepositValidTest" class="method navigator-link" hash-for-method="verifydepositamountTest">verifydepositamountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.WithdrawValidTest" class="method navigator-link" hash-for-method="verifywithdrawlamountTest">verifywithdrawlamountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.TransactionsTest" class="method navigator-link" hash-for-method="viewTransactionDepositTest">viewTransactionDepositTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.TransactionsTest" class="method navigator-link" hash-for-method="viewTransactionWithdrawlTest">viewTransactionWithdrawlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.WithdrawlInvalidTest" class="method navigator-link" hash-for-method="withdrawCharTest">withdrawCharTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.WithdrawlInvalidTest" class="method navigator-link" hash-for-method="withdrawMorethanBalanceTest">withdrawMorethanBalanceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone_Project" title="com.xyz.qa.testcases.WithdrawValidTest" class="method navigator-link" hash-for-method="withdrawamountTest">withdrawamountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Capstone_Project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Capstone_Project" class="panel Capstone_Project">
+          <div class="suite-Capstone_Project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.WithdrawlInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawNegativeTest">
+                  </a> <!-- withdrawNegativeTest -->
+                  <span class="method-name">withdrawNegativeTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;error ng-binding&apos;]&quot;}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-BEHQ30E2&apos;, ip: &apos;192.168.29.206&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a050e48a74daed0b4a99b0fa7d38b0e
+*** Element info: {Using=xpath, value=//span[@class=&apos;error ng-binding&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.xyz.qa.pages.WithdrawlPage.withdrawamountNegative(WithdrawlPage.java:99)
+	at com.xyz.qa.testcases.WithdrawlInvalidTest.withdrawNegativeTest(WithdrawlInvalidTest.java:37)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-failed -->
+          <div class="suite-Capstone_Project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.AddCustomerInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustNumbersTest">
+                  </a> <!-- addCustNumbersTest -->
+                  <span class="method-name">addCustNumbersTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.xyz.qa.testcases.AddCustomerInvalidTest.addCustNumbersTest(AddCustomerInvalidTest.java:49)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustValidationTest">
+                  </a> <!-- addCustValidationTest -->
+                  <span class="method-name">addCustValidationTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.xyz.qa.testcases.AddCustomerInvalidTest.addCustValidationTest(AddCustomerInvalidTest.java:43)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-failed -->
+          <div class="suite-Capstone_Project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.DepositInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositNegativeTest">
+                  </a> <!-- depositNegativeTest -->
+                  <span class="method-name">depositNegativeTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;error ng-binding&apos;]&quot;}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-BEHQ30E2&apos;, ip: &apos;192.168.29.206&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2083fc1011e0907bcf250bcc6281238
+*** Element info: {Using=xpath, value=//span[@class=&apos;error ng-binding&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.xyz.qa.pages.DepositPage.depositamountNegative(DepositPage.java:102)
+	at com.xyz.qa.testcases.DepositInvalidTest.depositNegativeTest(DepositInvalidTest.java:35)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-failed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.LoginCLTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountNumberTest">
+                  </a> <!-- verifyAccountNumberTest -->
+                  <span class="method-name">verifyAccountNumberTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerNameTest">
+                  </a> <!-- verifyCustomerNameTest -->
+                  <span class="method-name">verifyCustomerNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderTest">
+                  </a> <!-- verifyHeaderTest -->
+                  <span class="method-name">verifyHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.OpenAccountValidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountValidTest">
+                  </a> <!-- openAccountValidTest -->
+                  <span class="method-name">openAccountValidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountVerifyTest">
+                  </a> <!-- openAccountVerifyTest -->
+                  <span class="method-name">openAccountVerifyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.SearchCustomersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByFnameTest">
+                  </a> <!-- searchByFnameTest -->
+                  <span class="method-name">searchByFnameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByLnameTest">
+                  </a> <!-- searchByLnameTest -->
+                  <span class="method-name">searchByLnameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByPostTest">
+                  </a> <!-- searchByPostTest -->
+                  <span class="method-name">searchByPostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByaccNumTest">
+                  </a> <!-- searchByaccNumTest -->
+                  <span class="method-name">searchByaccNumTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.AddCustomerValidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustTest">
+                  </a> <!-- addCustTest -->
+                  <span class="method-name">addCustTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddedCustTest">
+                  </a> <!-- verifyAddedCustTest -->
+                  <span class="method-name">verifyAddedCustTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.AddCustomerInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustDuplicateTest">
+                  </a> <!-- addCustDuplicateTest -->
+                  <span class="method-name">addCustDuplicateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.OpenAccountInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountBlankTest">
+                  </a> <!-- openAccountBlankTest -->
+                  <span class="method-name">openAccountBlankTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountSingleBlankTest1">
+                  </a> <!-- openAccountSingleBlankTest1 -->
+                  <span class="method-name">openAccountSingleBlankTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountSingleBlankTest2">
+                  </a> <!-- openAccountSingleBlankTest2 -->
+                  <span class="method-name">openAccountSingleBlankTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.DepositValidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositamountTest">
+                  </a> <!-- depositamountTest -->
+                  <span class="method-name">depositamountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydepositamountTest">
+                  </a> <!-- verifydepositamountTest -->
+                  <span class="method-name">verifydepositamountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.WithdrawValidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifywithdrawlamountTest">
+                  </a> <!-- verifywithdrawlamountTest -->
+                  <span class="method-name">verifywithdrawlamountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawamountTest">
+                  </a> <!-- withdrawamountTest -->
+                  <span class="method-name">withdrawamountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.WithdrawlInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawCharTest">
+                  </a> <!-- withdrawCharTest -->
+                  <span class="method-name">withdrawCharTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawMorethanBalanceTest">
+                  </a> <!-- withdrawMorethanBalanceTest -->
+                  <span class="method-name">withdrawMorethanBalanceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.TransactionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewTransactionDepositTest">
+                  </a> <!-- viewTransactionDepositTest -->
+                  <span class="method-name">viewTransactionDepositTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewTransactionWithdrawlTest">
+                  </a> <!-- viewTransactionWithdrawlTest -->
+                  <span class="method-name">viewTransactionWithdrawlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.DeleteCustomersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteByFnameTest">
+                  </a> <!-- deleteByFnameTest -->
+                  <span class="method-name">deleteByFnameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteByLnameTest">
+                  </a> <!-- deleteByLnameTest -->
+                  <span class="method-name">deleteByLnameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+          <div class="suite-Capstone_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xyz.qa.testcases.DepositInvalidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositCharTest">
+                  </a> <!-- depositCharTest -->
+                  <span class="method-name">depositCharTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone_Project-class-passed -->
+        </div> <!-- panel Capstone_Project -->
+        <div panel-name="test-xml-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\eclipse-workspace\XYZBank\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Capstone Project&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;XYZ Bank Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.TransactionsTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.WithdrawValidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.OpenAccountInvalidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.WithdrawlInvalidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.SearchCustomersTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.DepositValidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.DepositInvalidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.AddCustomerValidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.DeleteCustomersTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.LoginCLTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.AddCustomerInvalidTest&quot;/&gt;
+      &lt;class name=&quot;com.xyz.qa.testcases.OpenAccountValidTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- XYZ Bank Test --&gt;
+&lt;/suite&gt; &lt;!-- Capstone Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Capstone Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">XYZ Bank Test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Capstone Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Capstone Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Capstone_Project');
+function tableData_Capstone_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'depositNegativeTest')
+data.setCell(0, 2, 'com.xyz.qa.testcases.DepositInvalidTest')
+data.setCell(0, 3, 77892);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteByLnameTest')
+data.setCell(1, 2, 'com.xyz.qa.testcases.DeleteCustomersTest')
+data.setCell(1, 3, 22892);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'withdrawNegativeTest')
+data.setCell(2, 2, 'com.xyz.qa.testcases.WithdrawlInvalidTest')
+data.setCell(2, 3, 21779);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteByFnameTest')
+data.setCell(3, 2, 'com.xyz.qa.testcases.DeleteCustomersTest')
+data.setCell(3, 3, 21167);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAddedCustTest')
+data.setCell(4, 2, 'com.xyz.qa.testcases.AddCustomerValidTest')
+data.setCell(4, 3, 2790);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'openAccountVerifyTest')
+data.setCell(5, 2, 'com.xyz.qa.testcases.OpenAccountValidTest')
+data.setCell(5, 3, 2181);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openAccountBlankTest')
+data.setCell(6, 2, 'com.xyz.qa.testcases.OpenAccountInvalidTest')
+data.setCell(6, 3, 1534);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'openAccountSingleBlankTest2')
+data.setCell(7, 2, 'com.xyz.qa.testcases.OpenAccountInvalidTest')
+data.setCell(7, 3, 1460);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addCustTest')
+data.setCell(8, 2, 'com.xyz.qa.testcases.AddCustomerValidTest')
+data.setCell(8, 3, 1135);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'viewTransactionWithdrawlTest')
+data.setCell(9, 2, 'com.xyz.qa.testcases.TransactionsTest')
+data.setCell(9, 3, 1057);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'depositamountTest')
+data.setCell(10, 2, 'com.xyz.qa.testcases.DepositValidTest')
+data.setCell(10, 3, 983);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'openAccountSingleBlankTest1')
+data.setCell(11, 2, 'com.xyz.qa.testcases.OpenAccountInvalidTest')
+data.setCell(11, 3, 939);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'withdrawCharTest')
+data.setCell(12, 2, 'com.xyz.qa.testcases.WithdrawlInvalidTest')
+data.setCell(12, 3, 921);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addCustNumbersTest')
+data.setCell(13, 2, 'com.xyz.qa.testcases.AddCustomerInvalidTest')
+data.setCell(13, 3, 841);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addCustValidationTest')
+data.setCell(14, 2, 'com.xyz.qa.testcases.AddCustomerInvalidTest')
+data.setCell(14, 3, 841);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'viewTransactionDepositTest')
+data.setCell(15, 2, 'com.xyz.qa.testcases.TransactionsTest')
+data.setCell(15, 3, 810);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'openAccountValidTest')
+data.setCell(16, 2, 'com.xyz.qa.testcases.OpenAccountValidTest')
+data.setCell(16, 3, 781);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addCustDuplicateTest')
+data.setCell(17, 2, 'com.xyz.qa.testcases.AddCustomerInvalidTest')
+data.setCell(17, 3, 744);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'depositCharTest')
+data.setCell(18, 2, 'com.xyz.qa.testcases.DepositInvalidTest')
+data.setCell(18, 3, 666);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchByFnameTest')
+data.setCell(19, 2, 'com.xyz.qa.testcases.SearchCustomersTest')
+data.setCell(19, 3, 648);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchByaccNumTest')
+data.setCell(20, 2, 'com.xyz.qa.testcases.SearchCustomersTest')
+data.setCell(20, 3, 598);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchByLnameTest')
+data.setCell(21, 2, 'com.xyz.qa.testcases.SearchCustomersTest')
+data.setCell(21, 3, 597);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'withdrawamountTest')
+data.setCell(22, 2, 'com.xyz.qa.testcases.WithdrawValidTest')
+data.setCell(22, 3, 592);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'withdrawMorethanBalanceTest')
+data.setCell(23, 2, 'com.xyz.qa.testcases.WithdrawlInvalidTest')
+data.setCell(23, 3, 556);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchByPostTest')
+data.setCell(24, 2, 'com.xyz.qa.testcases.SearchCustomersTest')
+data.setCell(24, 3, 514);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifydepositamountTest')
+data.setCell(25, 2, 'com.xyz.qa.testcases.DepositValidTest')
+data.setCell(25, 3, 514);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifywithdrawlamountTest')
+data.setCell(26, 2, 'com.xyz.qa.testcases.WithdrawValidTest')
+data.setCell(26, 3, 489);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyHeaderTest')
+data.setCell(27, 2, 'com.xyz.qa.testcases.LoginCLTest')
+data.setCell(27, 3, 441);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyAccountNumberTest')
+data.setCell(28, 2, 'com.xyz.qa.testcases.LoginCLTest')
+data.setCell(28, 3, 378);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyCustomerNameTest')
+data.setCell(29, 2, 'com.xyz.qa.testcases.LoginCLTest')
+data.setCell(29, 3, 305);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'loginPageTitleTest')
+data.setCell(30, 2, 'com.xyz.qa.testcases.LoginCLTest')
+data.setCell(30, 3, 11);
+window.suiteTableData['Capstone_Project']= { tableData: data, tableDiv: 'times-div-Capstone_Project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Capstone_Project">
+              </div> <!-- times-div-Capstone_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Capstone Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Capstone_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.TransactionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewTransactionWithdrawlTest</span>
+                <span class="method-start">11619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12678 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.WithdrawValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withdrawamountTest</span>
+                <span class="method-start">21230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21822 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.OpenAccountInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountBlankTest</span>
+                <span class="method-start">31390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32926 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.WithdrawlInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">withdrawNegativeTest</span>
+                <span class="method-start">43244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65027 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.SearchCustomersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">65310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByFnameTest</span>
+                <span class="method-start">78022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78671 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DepositValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">depositamountTest</span>
+                <span class="method-start">96534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97519 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DepositInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">depositNegativeTest</span>
+                <span class="method-start">113428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191322 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.AddCustomerValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">198481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustTest</span>
+                <span class="method-start">214931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216067 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DeleteCustomersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">217734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteByFnameTest</span>
+                <span class="method-start">227529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">248698 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.LoginCLTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">249933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">263442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">263454 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.AddCustomerInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">263636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addCustDuplicateTest</span>
+                <span class="method-start">272275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">273020 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.OpenAccountValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">273395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountValidTest</span>
+                <span class="method-start">285005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">285786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.TransactionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">286118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewTransactionDepositTest</span>
+                <span class="method-start">295344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296155 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.WithdrawValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">296771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifywithdrawlamountTest</span>
+                <span class="method-start">308681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">309171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.OpenAccountInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">309617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountSingleBlankTest1</span>
+                <span class="method-start">319802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">320744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.WithdrawlInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">321635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withdrawCharTest</span>
+                <span class="method-start">333480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334401 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.SearchCustomersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">334905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByLnameTest</span>
+                <span class="method-start">345386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">345984 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DepositValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">346287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydepositamountTest</span>
+                <span class="method-start">357853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">358368 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DepositInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">358891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">depositCharTest</span>
+                <span class="method-start">368351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">369017 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.AddCustomerValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">369634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddedCustTest</span>
+                <span class="method-start">380234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">383024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.DeleteCustomersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">383496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteByLnameTest</span>
+                <span class="method-start">392442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">415334 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.LoginCLTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">415719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderTest</span>
+                <span class="method-start">428424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">428865 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.AddCustomerInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">429317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustNumbersTest</span>
+                <span class="method-start">440421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">441266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">441950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustValidationTest</span>
+                <span class="method-start">450293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">451135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.OpenAccountValidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">452017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountVerifyTest</span>
+                <span class="method-start">463298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">465480 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.OpenAccountInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">504100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAccountSingleBlankTest2</span>
+                <span class="method-start">550216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">551677 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.LoginCLTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">552891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountNumberTest</span>
+                <span class="method-start">570163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">570542 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.WithdrawlInvalidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">571686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withdrawMorethanBalanceTest</span>
+                <span class="method-start">586715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">587273 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.SearchCustomersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">587936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByPostTest</span>
+                <span class="method-start">595165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">595679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp1</span>
+                <span class="method-start">596129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByaccNumTest</span>
+                <span class="method-start">606195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">606794 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xyz.qa.testcases.LoginCLTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">607616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomerNameTest</span>
+                <span class="method-start">615704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">616009 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

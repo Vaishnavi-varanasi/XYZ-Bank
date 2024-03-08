@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="27" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T16:27:49Z" name="Capstone Project" finished-at="2024-03-08T16:38:05Z" duration-ms="616379">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T16:27:49Z" name="XYZ Bank Test" finished-at="2024-03-08T16:38:05Z" duration-ms="616379">
+      <class name="com.xyz.qa.testcases.OpenAccountValidTest">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:02:22Z" name="setUp1" finished-at="2024-03-08T22:02:34Z" duration-ms="11610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="openAccountValidTest()[pri:1, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:02:34Z" name="openAccountValidTest" finished-at="2024-03-08T22:02:35Z" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountValidTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:02:35Z" name="tearDown" finished-at="2024-03-08T22:02:35Z" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:05:21Z" name="setUp1" finished-at="2024-03-08T22:05:32Z" duration-ms="11281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="openAccountVerifyTest()[pri:2, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:05:32Z" name="openAccountVerifyTest" finished-at="2024-03-08T22:05:34Z" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountVerifyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.OpenAccountValidTest@78ffe6dc]" started-at="2024-03-08T22:05:34Z" name="tearDown" finished-at="2024-03-08T22:06:13Z" duration-ms="38620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.OpenAccountValidTest -->
+      <class name="com.xyz.qa.testcases.OpenAccountInvalidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T21:58:12Z" name="setUp" finished-at="2024-03-08T21:58:20Z" duration-ms="8829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccountBlankTest()[pri:1, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T21:58:20Z" name="openAccountBlankTest" finished-at="2024-03-08T21:58:22Z" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountBlankTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T21:58:22Z" name="tearDown" finished-at="2024-03-08T21:58:23Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:02:59Z" name="setUp" finished-at="2024-03-08T22:03:09Z" duration-ms="10185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccountSingleBlankTest1()[pri:2, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:03:09Z" name="openAccountSingleBlankTest1" finished-at="2024-03-08T22:03:10Z" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountSingleBlankTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:03:10Z" name="tearDown" finished-at="2024-03-08T22:03:11Z" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:06:13Z" name="setUp" finished-at="2024-03-08T22:06:59Z" duration-ms="46116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccountSingleBlankTest2()[pri:3, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:06:59Z" name="openAccountSingleBlankTest2" finished-at="2024-03-08T22:07:01Z" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountSingleBlankTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.OpenAccountInvalidTest@1329eff]" started-at="2024-03-08T22:07:01Z" name="tearDown" finished-at="2024-03-08T22:07:02Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.OpenAccountInvalidTest -->
+      <class name="com.xyz.qa.testcases.WithdrawValidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T21:58:02Z" name="setUp" finished-at="2024-03-08T21:58:10Z" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawamountTest()[pri:1, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T21:58:10Z" name="withdrawamountTest" finished-at="2024-03-08T21:58:11Z" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawamountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T21:58:11Z" name="tearDown" finished-at="2024-03-08T21:58:12Z" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T22:02:46Z" name="setUp" finished-at="2024-03-08T22:02:58Z" duration-ms="11910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifywithdrawlamountTest()[pri:2, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T22:02:58Z" name="verifywithdrawlamountTest" finished-at="2024-03-08T22:02:58Z" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithdrawlamountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.WithdrawValidTest@c03cf28]" started-at="2024-03-08T22:02:58Z" name="tearDown" finished-at="2024-03-08T22:02:59Z" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.WithdrawValidTest -->
+      <class name="com.xyz.qa.testcases.AddCustomerValidTest">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:01:07Z" name="setUp1" finished-at="2024-03-08T22:01:24Z" duration-ms="16450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="addCustTest()[pri:1, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:01:24Z" name="addCustTest" finished-at="2024-03-08T22:01:25Z" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:01:25Z" name="tearDown" finished-at="2024-03-08T22:01:27Z" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:03:59Z" name="setUp1" finished-at="2024-03-08T22:04:09Z" duration-ms="10600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="verifyAddedCustTest()[pri:2, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:04:09Z" name="verifyAddedCustTest" finished-at="2024-03-08T22:04:12Z" duration-ms="2790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedCustTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.AddCustomerValidTest@1fb700ee]" started-at="2024-03-08T22:04:12Z" name="tearDown" finished-at="2024-03-08T22:04:12Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.AddCustomerValidTest -->
+      <class name="com.xyz.qa.testcases.AddCustomerInvalidTest">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:02:13Z" name="setUp1" finished-at="2024-03-08T22:02:21Z" duration-ms="8639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="addCustDuplicateTest()[pri:1, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:02:21Z" name="addCustDuplicateTest" finished-at="2024-03-08T22:02:22Z" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustDuplicateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:02:22Z" name="tearDown" finished-at="2024-03-08T22:02:22Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:04:58Z" name="setUp1" finished-at="2024-03-08T22:05:09Z" duration-ms="11104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="addCustNumbersTest()[pri:2, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:05:09Z" name="addCustNumbersTest" finished-at="2024-03-08T22:05:10Z" duration-ms="841" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertFalse(Assert.java:62)
+	at org.testng.Assert.assertFalse(Assert.java:72)
+	at com.xyz.qa.testcases.AddCustomerInvalidTest.addCustNumbersTest(AddCustomerInvalidTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustNumbersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:05:10Z" name="tearDown" finished-at="2024-03-08T22:05:11Z" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:05:11Z" name="setUp1" finished-at="2024-03-08T22:05:19Z" duration-ms="8343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="addCustValidationTest()[pri:2, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:05:19Z" name="addCustValidationTest" finished-at="2024-03-08T22:05:20Z" duration-ms="841" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertFalse(Assert.java:62)
+	at org.testng.Assert.assertFalse(Assert.java:72)
+	at com.xyz.qa.testcases.AddCustomerInvalidTest.addCustValidationTest(AddCustomerInvalidTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.AddCustomerInvalidTest@5f683daf]" started-at="2024-03-08T22:05:20Z" name="tearDown" finished-at="2024-03-08T22:05:21Z" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.AddCustomerInvalidTest -->
+      <class name="com.xyz.qa.testcases.LoginCLTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:01:59Z" name="setUp" finished-at="2024-03-08T22:02:12Z" duration-ms="13509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:02:12Z" name="loginPageTitleTest" finished-at="2024-03-08T22:02:12Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:02:12Z" name="tearDown" finished-at="2024-03-08T22:02:13Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:04:45Z" name="setUp" finished-at="2024-03-08T22:04:57Z" duration-ms="12705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderTest()[pri:2, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:04:57Z" name="verifyHeaderTest" finished-at="2024-03-08T22:04:58Z" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:04:58Z" name="tearDown" finished-at="2024-03-08T22:04:58Z" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:07:02Z" name="setUp" finished-at="2024-03-08T22:07:19Z" duration-ms="17272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAccountNumberTest()[pri:3, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:07:19Z" name="verifyAccountNumberTest" finished-at="2024-03-08T22:07:20Z" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountNumberTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:07:20Z" name="tearDown" finished-at="2024-03-08T22:07:21Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:07:57Z" name="setUp" finished-at="2024-03-08T22:08:05Z" duration-ms="8088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomerNameTest()[pri:4, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:08:05Z" name="verifyCustomerNameTest" finished-at="2024-03-08T22:08:05Z" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.LoginCLTest@4a668b6e]" started-at="2024-03-08T22:08:05Z" name="tearDown" finished-at="2024-03-08T22:08:05Z" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.LoginCLTest -->
+      <class name="com.xyz.qa.testcases.DepositInvalidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T21:59:27Z" name="setUp" finished-at="2024-03-08T21:59:42Z" duration-ms="15349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositNegativeTest()[pri:1, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T21:59:42Z" name="depositNegativeTest" finished-at="2024-03-08T22:01:00Z" duration-ms="77892" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error ng-binding']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-BEHQ30E2', ip: '192.168.29.206', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2083fc1011e0907bcf250bcc6281238
+*** Element info: {Using=xpath, value=//span[@class='error ng-binding']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error ng-binding']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-BEHQ30E2', ip: '192.168.29.206', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2083fc1011e0907bcf250bcc6281238
+*** Element info: {Using=xpath, value=//span[@class='error ng-binding']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.xyz.qa.pages.DepositPage.depositamountNegative(DepositPage.java:102)
+	at com.xyz.qa.testcases.DepositInvalidTest.depositNegativeTest(DepositInvalidTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T22:01:00Z" name="tearDown" finished-at="2024-03-08T22:01:07Z" duration-ms="7159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T22:03:48Z" name="setUp" finished-at="2024-03-08T22:03:57Z" duration-ms="9460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositCharTest()[pri:2, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T22:03:57Z" name="depositCharTest" finished-at="2024-03-08T22:03:58Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositCharTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DepositInvalidTest@46fa7c39]" started-at="2024-03-08T22:03:58Z" name="tearDown" finished-at="2024-03-08T22:03:59Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.DepositInvalidTest -->
+      <class name="com.xyz.qa.testcases.DeleteCustomersTest">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:01:27Z" name="setUp1" finished-at="2024-03-08T22:01:37Z" duration-ms="9795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="deleteByFnameTest()[pri:1, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:01:37Z" name="deleteByFnameTest" finished-at="2024-03-08T22:01:58Z" duration-ms="21167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteByFnameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:01:58Z" name="tearDown" finished-at="2024-03-08T22:01:59Z" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:04:12Z" name="setUp1" finished-at="2024-03-08T22:04:21Z" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="deleteByLnameTest()[pri:2, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:04:21Z" name="deleteByLnameTest" finished-at="2024-03-08T22:04:44Z" duration-ms="22892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteByLnameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DeleteCustomersTest@4f67eb2a]" started-at="2024-03-08T22:04:44Z" name="tearDown" finished-at="2024-03-08T22:04:45Z" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.DeleteCustomersTest -->
+      <class name="com.xyz.qa.testcases.WithdrawlInvalidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T21:58:23Z" name="setUp" finished-at="2024-03-08T21:58:32Z" duration-ms="9612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawNegativeTest()[pri:1, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T21:58:32Z" name="withdrawNegativeTest" finished-at="2024-03-08T21:58:54Z" duration-ms="21779" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error ng-binding']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-BEHQ30E2', ip: '192.168.29.206', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a050e48a74daed0b4a99b0fa7d38b0e
+*** Element info: {Using=xpath, value=//span[@class='error ng-binding']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error ng-binding']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-BEHQ30E2', ip: '192.168.29.206', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a050e48a74daed0b4a99b0fa7d38b0e
+*** Element info: {Using=xpath, value=//span[@class='error ng-binding']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.xyz.qa.pages.WithdrawlPage.withdrawamountNegative(WithdrawlPage.java:99)
+	at com.xyz.qa.testcases.WithdrawlInvalidTest.withdrawNegativeTest(WithdrawlInvalidTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T21:58:54Z" name="tearDown" finished-at="2024-03-08T21:58:54Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:03:11Z" name="setUp" finished-at="2024-03-08T22:03:22Z" duration-ms="11845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawCharTest()[pri:2, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:03:22Z" name="withdrawCharTest" finished-at="2024-03-08T22:03:23Z" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawCharTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:03:23Z" name="tearDown" finished-at="2024-03-08T22:03:24Z" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:07:21Z" name="setUp" finished-at="2024-03-08T22:07:36Z" duration-ms="15029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawMorethanBalanceTest()[pri:3, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:07:36Z" name="withdrawMorethanBalanceTest" finished-at="2024-03-08T22:07:36Z" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawMorethanBalanceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.WithdrawlInvalidTest@6497b078]" started-at="2024-03-08T22:07:36Z" name="tearDown" finished-at="2024-03-08T22:07:37Z" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.WithdrawlInvalidTest -->
+      <class name="com.xyz.qa.testcases.DepositValidTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T21:59:12Z" name="setUp" finished-at="2024-03-08T21:59:26Z" duration-ms="13969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositamountTest()[pri:1, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T21:59:26Z" name="depositamountTest" finished-at="2024-03-08T21:59:27Z" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositamountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T21:59:27Z" name="tearDown" finished-at="2024-03-08T21:59:27Z" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T22:03:35Z" name="setUp" finished-at="2024-03-08T22:03:47Z" duration-ms="11566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifydepositamountTest()[pri:2, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T22:03:47Z" name="verifydepositamountTest" finished-at="2024-03-08T22:03:47Z" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydepositamountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.DepositValidTest@53aad5d5]" started-at="2024-03-08T22:03:47Z" name="tearDown" finished-at="2024-03-08T22:03:48Z" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.DepositValidTest -->
+      <class name="com.xyz.qa.testcases.SearchCustomersTest">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T21:58:54Z" name="setUp1" finished-at="2024-03-08T21:59:07Z" duration-ms="12712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="searchByFnameTest()[pri:1, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T21:59:07Z" name="searchByFnameTest" finished-at="2024-03-08T21:59:08Z" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByFnameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T21:59:08Z" name="tearDown" finished-at="2024-03-08T21:59:12Z" duration-ms="3893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:03:24Z" name="setUp1" finished-at="2024-03-08T22:03:34Z" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="searchByLnameTest()[pri:2, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:03:34Z" name="searchByLnameTest" finished-at="2024-03-08T22:03:35Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByLnameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:03:35Z" name="tearDown" finished-at="2024-03-08T22:03:35Z" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:37Z" name="setUp1" finished-at="2024-03-08T22:07:44Z" duration-ms="7229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="searchByPostTest()[pri:3, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:44Z" name="searchByPostTest" finished-at="2024-03-08T22:07:45Z" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:45Z" name="tearDown" finished-at="2024-03-08T22:07:45Z" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:45Z" name="setUp1" finished-at="2024-03-08T22:07:55Z" duration-ms="10066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="searchByaccNumTest()[pri:4, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:55Z" name="searchByaccNumTest" finished-at="2024-03-08T22:07:56Z" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByaccNumTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.SearchCustomersTest@41c2284a]" started-at="2024-03-08T22:07:56Z" name="tearDown" finished-at="2024-03-08T22:07:57Z" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.SearchCustomersTest -->
+      <class name="com.xyz.qa.testcases.TransactionsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T21:57:49Z" name="setUp" finished-at="2024-03-08T21:58:01Z" duration-ms="11619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewTransactionWithdrawlTest()[pri:1, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T21:58:01Z" name="viewTransactionWithdrawlTest" finished-at="2024-03-08T21:58:02Z" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTransactionWithdrawlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T21:58:02Z" name="tearDown" finished-at="2024-03-08T21:58:02Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T22:02:35Z" name="setUp" finished-at="2024-03-08T22:02:44Z" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewTransactionDepositTest()[pri:2, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T22:02:44Z" name="viewTransactionDepositTest" finished-at="2024-03-08T22:02:45Z" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTransactionDepositTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyz.qa.testcases.TransactionsTest@1356d4d4]" started-at="2024-03-08T22:02:45Z" name="tearDown" finished-at="2024-03-08T22:02:46Z" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyz.qa.testcases.TransactionsTest -->
+    </test> <!-- XYZ Bank Test -->
+  </suite> <!-- Capstone Project -->
+</testng-results>

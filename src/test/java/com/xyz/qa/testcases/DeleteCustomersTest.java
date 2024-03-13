@@ -13,6 +13,10 @@ import com.xyz.qa.pages.CustomersPage;
 import com.xyz.qa.pages.HomePageXYZ;
 import com.xyz.qa.util.TestUtilXYZ;
 
+/* 
+In Jira(Zephyr Squad), this test case number is 
+XYZ-T12
+*/
 public class DeleteCustomersTest extends TestBaseXYZ {
 	HomePageXYZ homePage;
 	TestUtilXYZ testUtil;
@@ -32,6 +36,11 @@ public class DeleteCustomersTest extends TestBaseXYZ {
 		customerspage = bankmanagerlogin.navigatetoCustomers();
 	}
 
+	/*
+	 In this test, I deleted user by searching for first name in search bar
+	 After deleting, I searched for the deleted user, if element is not found them it means that the delete action is performed successfully
+	 I used NoSuchElementFoundException for that
+	 */
 	@Test(priority = 1)
 	public void deleteByFnameTest() {
 
@@ -44,6 +53,11 @@ public class DeleteCustomersTest extends TestBaseXYZ {
 			System.out.println("Delete action performed successfully");
 		}
 	}
+	/*
+	 In this test, I deleted user by searching for last name in search bar
+	 After deleting, I searched for the deleted user, if element is not found them it means that the delete action is performed successfully
+	 I used NoSuchElementFoundException for that
+	 */
 	@Test(priority = 2)
 	public void deleteByLnameTest() {
 
@@ -56,7 +70,7 @@ public class DeleteCustomersTest extends TestBaseXYZ {
 			System.out.println("Delete action performed successfully");
 		}
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
